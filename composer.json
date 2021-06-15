@@ -1,0 +1,30 @@
+{
+    "name": "gvera/commands",
+    "description": "gv command interface",
+    "license": "MIT",
+    "keywords": ["gv", "command"],
+    "authors": [
+        {
+            "name": "Guido Vera",
+            "email": "vera.a.guido@gmail.com"
+        }
+    ],
+    "config": {
+        "platform" :{
+            "php": "8.0.0"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+    },
+    "scripts": {
+    },
+    "autoload": {
+      "psr-4": {
+        "Gvera\\": [
+            "src/"
+        ]
+      }
+    }
+}
